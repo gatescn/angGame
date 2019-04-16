@@ -11,6 +11,8 @@ import {MatButtonModule,
 MatToolbarModule} from '@angular/material';
 import { GameMenuComponent } from './game-menu/game-menu.component';
 import { PlayerInformationComponent } from './player-information/player-information.component';
+import { GameSceneComponent } from './game-scene/game-scene.component';
+import { PlayingCardComponent } from './playing-card/playing-card.component';
 @NgModule({
   imports:      [ BrowserModule, 
   FormsModule,
@@ -20,7 +22,7 @@ import { PlayerInformationComponent } from './player-information/player-informat
   MatProgressSpinnerModule,
   MatButtonModule,
   MatCheckboxModule ],
-  declarations: [ AppComponent, GameMenuComponent, PlayerInformationComponent],
+  declarations: [ AppComponent, GameMenuComponent, PlayerInformationComponent, GameSceneComponent, PlayingCardComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

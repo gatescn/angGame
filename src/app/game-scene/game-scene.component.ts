@@ -21,8 +21,6 @@ export class GameSceneComponent implements OnInit {
   ngOnInit() {
     
    let dummyData: string[]  = this.data.PlayerNames;
-
-
     for (var _i = 0; _i < this.NumberOfPlayers; _i++) {
         this.AddPlayers(dummyData[_i]);
     }

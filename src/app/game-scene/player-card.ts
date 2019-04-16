@@ -6,11 +6,10 @@ export class PlayerCard {
   RowSize: number = 1;
   ColumnSize: number = 2;
 
-  constructor(owner:string, cardType: CardTypes,
+  public constructor(owner:string, 
    rowSize: number, colSize: number)
   {
     this.CardOwner = owner;
-    this.CardType = cardType;
     this.RowSize = rowSize;
     this.ColumnSize = colSize;
   }

@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule,
+MatGridListModule,
  MatCheckboxModule,
  MatCardModule,
  MatProgressSpinnerModule,
@@ -18,6 +19,7 @@ import { PlayingCardComponent } from './playing-card/playing-card.component';
   FormsModule,
   BrowserAnimationsModule,
   MatToolbarModule,
+  MatGridListModule,
   MatCardModule,
   MatProgressSpinnerModule,
   MatButtonModule,

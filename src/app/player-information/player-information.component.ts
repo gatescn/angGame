@@ -2,9 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'player-information',
-  template:`
-    <h3>{{PlayerName}} | {{CurrentPlayerLevel}}</h3>
-  `,
+  templateUrl: './player-information.component.html',
   styleUrls: ['./player-information.component.css']
 })
 export class PlayerInformationComponent implements OnInit {

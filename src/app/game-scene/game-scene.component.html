@@ -1,5 +1,12 @@
 <mat-grid-list cols="2" rowHeight="100px">
-	<mat-grid-tile *ngFor="let card of CardDeck" [colspan]="card.ColumnSize" [rowspan]="card.RowSize">
-		{{card.CardOwner}}
+	<mat-grid-tile *ngFor="let card of CardDeck">
+		<mat-card class="settings-card">
+      <mat-card-title>
+        Title
+      </mat-card-title>
+      <mat-card-content>
+        {{card.name}}
+      </mat-card-content>
+    </mat-card>
 	</mat-grid-tile>
 </mat-grid-list>

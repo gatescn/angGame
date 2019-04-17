@@ -13,16 +13,18 @@ export class GameSceneComponent implements OnInit {
 
   NumberOfPlayers: number = 2;
   data: DefaultplayerData = new DefaultplayerData();
-  CardDeck: PlayerCard[] = null;
+  CardDeck: PlayerCard[] = [];
 
 
   constructor() { }
 
   ngOnInit() {
-    
+    console.log("hi, game scene is running");
    let dummyData: string[]  = this.data.PlayerNames;
     for (var _i = 0; _i < this.NumberOfPlayers; _i++) {
         this.AddPlayers(dummyData[_i]);
+        console.log(this.CardDeck[_i]);
+
     }
   }
   AddPlayers(name: string){

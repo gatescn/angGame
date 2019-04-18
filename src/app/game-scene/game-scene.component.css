@@ -1,5 +1,12 @@
-.settings-card {
-    height: 270px;
-    width: 360px;
-    background-color: white;
+.card {
+    height: 100%;
+    width: 80%;
+    background-color: #C2AED3;
+    border-radius: 10%;
+    overflow: hidden;
+    padding: 20px;
+}
+.mat-grid-list{
+  margin-top: 100px;
+
 }
